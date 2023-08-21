@@ -64,7 +64,7 @@ def main():
         sns.set(style="white")
         
         # Create the scatter plot
-        plt.figure(figsize=(25, 15))
+        plt.figure(figsize=(20, 15))
         scatter_plot = sns.scatterplot(y='average_runs', x='run_rate', data=result1)
         
         
