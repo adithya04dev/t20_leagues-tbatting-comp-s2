@@ -70,7 +70,7 @@ def main():
         
         # Annotate the points with player names
         for i, row in result1.iterrows():
-            scatter_plot.text(row['run_rate'],row['average_runs'], row['team_name'], fontsize=18, alpha=0.7)
+            scatter_plot.text(row['run_rate'],row['average_runs'], row['team_name'], fontsize=18, alpha=1.3)
         
         plt.title('Scatter Plot ')
         plt.xlabel('Runrate')
